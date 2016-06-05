@@ -23,3 +23,7 @@ div, main {
 .mdl-layout__drawer{
     transform:translateX(250px);
 }
+
+.mdl-layout__header-row {
+  padding: 0 40px 0 40px; !important
+}
