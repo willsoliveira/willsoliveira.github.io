@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div, main {
+  height: 100%;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.mdl-layout__drawer-button, .mdl-layout__drawer{
+    left: initial;
+    right: 0;
+}
+
+.mdl-layout__drawer{
+    transform:translateX(250px);
+}
