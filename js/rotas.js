@@ -3,7 +3,7 @@ var directionsDisplay;
 var directionsService;
 var stepDisplay;
 var arrayMarcadores = [];
-var urlBase = "http://nameless-lowlands-10872.herokuapp.com/ocorrencias/lista/?"
+var urlBase = "https://nameless-lowlands-10872.herokuapp.com/ocorrencias/lista/?"
 var initialLocation;
 
 function initMap() {
@@ -68,7 +68,7 @@ function carregaOcorrencias(caminho){
       };
       var cores = ["red", "orange", "purple"];
       console.log(data.tipo);
-      var imagem = "http://maps.google.com/mapfiles/ms/icons/" + cores[data[i].tipo - 1] +  "-dot.png";
+      var imagem = "https://maps.google.com/mapfiles/ms/icons/" + cores[data[i].tipo - 1] +  "-dot.png";
       console.log(imagem);
       adicionarOcorrencia(map, coordenadas, imagem);
     }
