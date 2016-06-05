@@ -27,3 +27,11 @@ div, main {
 .mdl-layout__header-row {
   padding: 0 40px 0 40px; !important
 }
+
+.mdl-textfield--expandable {
+  max-width: 50%;
+}
+
+.material-icons {
+  margin-top: 6px;
+}
